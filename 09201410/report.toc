@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Motivation of recent work}{3}{0}{1}
+\beamer@sectionintoc {2}{Event Selection}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Reconstruction of $K_S^0$ $K$ and $\pi $}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Reconstruction of ${\gamma }_{\rm E1}$ and ${\pi }^0$}{6}{0}{2}
+\beamer@sectionintoc {3}{signal MC Results}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Results of reconstruction of $K_S^0$ $K$ and $\pi $}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Results of reconstruction of ${\gamma }_{\rm E1}$ and ${\pi }^0$}{10}{0}{3}
+\beamer@sectionintoc {4}{Work to be done}{13}{0}{4}

@@ -1,0 +1,74 @@
+\documentclass[30pt,landscape,footrule]{foils}
+\usepackage[active]{srcltx}
+\usepackage{ifvtex}
+\usepackage{ifpdf}
+
+\ifvtexpdf\pdftrue\fi
+\ifpdf
+\usepackage{pause}
+\usepackage[bgadd]{background}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\ifvtex\relax
+\else
+\DeclareGraphicsRule{*}{mps}{*}{}
+\fi
+\else
+\usepackage[dvipdfm]{pause}
+\usepackage[dvipdfm]{background}
+\usepackage[dvips]{graphicx}
+\usepackage[dvips]{geometry}
+\usepackage[dvipdfm]{hyperref}
+\fi
+\usepackage{tabularx}
+\usepackage{pp4link}
+\usepackage{mpmulti}
+\usepackage{amssymb}
+
+\geometry{headsep=3ex, hscale=0.9}
+\hypersetup{pdftitle={pp4extensions},
+  pdfsubject={title at here},
+  pdfauthor={author name, School of Mathematical Sciences, 
+    Peking University, email at here},
+  pdfkeywords={acrobat, ppower4},
+  pdfpagemode={FullScreen},
+  colorlinks={true},
+  linkcolor={red}
+}
+
+\color{yellow}
+\bgadd{\includegraphics[width=29cm]{bg.jpg}}
+
+\newcounter{hours}%
+\newcounter{minutes}%
+\newcounter{modcounter}%
+\newcommand{\calculatetime}{\setcounter{minutes}{\time}%
+  \setcounter{hours}{\value{minutes}}%
+  \global \divide \value{hours} by 60\relax%
+  \setcounter{modcounter}{\value{hours}}%
+  \global \multiply \value{modcounter} by 60\relax%
+  \global \advance \value{minutes} by -\value{modcounter}\relax}%
+
+\begin{document}
+
+\parindent 0mm\raggedright
+\MyLogo{\pauselevel{=1} Schoole of Mathematical Sciences, Peking University \quad
+    \calculatetime\arabic{hours}:\arabic{minutes}, \today \qquad
+    \Acrobatmenu{FirstPage}{First}\quad
+    \Acrobatmenu{PrevPage}{Previous}\quad
+    \Acrobatmenu{NextPage}{Next}\quad
+    \Acrobatmenu{LastPage}{Last}\quad
+}
+
+\foilhead{title of this talk} \vspace*{1cm}
+\begin{center}
+author name, email, website \\ \vspace*{1cm}
+{\it {School of Mathematical Sciences, \\
+Peking University}}\\ \vspace*{1cm}
+information of co-workers
+\end{center}
+
+\foilhead{title of this slide}
+
+\end{document}

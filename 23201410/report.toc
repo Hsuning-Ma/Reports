@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Optimization}{2}{0}{1}
+\beamer@sectionintoc {2}{Results after Optimization}{5}{0}{2}
+\beamer@sectionintoc {3}{Things to do}{8}{0}{3}

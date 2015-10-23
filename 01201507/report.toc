@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Data Set}{5}{0}{2}
+\beamer@sectionintoc {3}{Exclusive Process}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{Event Selections}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Optimized Selection}{9}{0}{3}
+\beamer@sectionintoc {4}{Inclusive Process}{10}{0}{4}
+\beamer@subsectionintoc {4}{1}{Event Selections}{11}{0}{4}
+\beamer@subsectionintoc {4}{2}{sideband}{12}{0}{4}
+\beamer@sectionintoc {5}{Fit simultaneously}{15}{0}{5}
+\beamer@subsectionintoc {5}{1}{Efficiecy Curves}{16}{0}{5}
+\beamer@subsectionintoc {5}{2}{Resolution}{17}{0}{5}
+\beamer@subsectionintoc {5}{3}{Simultaneous Fit}{18}{0}{5}
+\beamer@sectionintoc {6}{Braching Fraction}{19}{0}{6}
+\beamer@subsectionintoc {6}{1}{Braching Fraction}{19}{0}{6}
+\beamer@sectionintoc {7}{Summary}{20}{0}{7}

@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {2.2pt}
+\beamer@sectionintoc {2}{Slide^^b5^^c4^^bb^^f9^^b1^^be^^b8^^c5^^c4^^ee}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Slide^^b5^^c4^^ca^^b5^^cf^^d6^^b7^^bd^^ca^^bd}{5}{0}{1}
+\beamer@subsectionintoc {2}{2}{T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m Slide^^ca^^b5^^cf^^d6^^b5^^c4^^cc^^d8^^b5^^e3}{13}{0}{1}
+\beamer@sectionintoc {3}{Beamer^^ce^^c4^^bc^^fe^^b5^^c4^^bf^^f2^^bc^^dc}{18}{0}{2}
+\beamer@subsectionintoc {3}{1}{^^c2^^df^^bc^^ad^^ba^^cd^^c4^^da^^c8^^dd^^b5^^c4^^b6^^c0^^c1^^a2}{19}{0}{2}
+\beamer@subsectionintoc {3}{2}{^^c4^^da^^c8^^dd^^ba^^cd^^cf^^d4^^ca^^be^^d0^^a7^^b9^^fb^^b5^^c4^^b6^^c0^^c1^^a2}{21}{0}{2}
+\beamer@sectionintoc {4}{Beamer^^d0^^a7^^b9^^fb^^d1^^dd^^ca^^be}{23}{0}{3}
+\beamer@subsectionintoc {4}{1}{^^d6^^f0^^d0^^d0^^cf^^d4^^ca^^be^^b5^^c4^^ca^^b5^^cf^^d6}{24}{0}{3}
+\beamer@subsectionintoc {4}{2}{^^d7^^d6^^cc^^e5^^ba^^cd^^c9^^ab^^b2^^ca^^b5^^c4^^d1^^dd^^ca^^be}{28}{0}{3}
+\beamer@subsectionintoc {4}{3}{^^bb^^bb^^d2^^b3^^b6^^af^^cc^^ac^^d0^^a7^^b9^^fb}{35}{0}{3}
+\beamer@subsectionintoc {4}{4}{^^b3^^ac^^bc^^b6^^c1^^b4^^bd^^d3^^b5^^c4^^ca^^b5^^cf^^d6}{46}{0}{3}
+\beamer@subsectionintoc {4}{5}{^^b0^^fc^^ba^^ac^^cd^^bc^^cf^^f3}{53}{0}{3}
+\beamer@subsectionintoc {4}{6}{^^b0^^fc^^ba^^ac^^ca^^d3^^c6^^b5^^ba^^cd^^d2^^f4^^c6^^b5}{57}{0}{3}
+\beamer@sectionintoc {5}{^^b8^^bd^^c2^^bc}{60}{1}{4}

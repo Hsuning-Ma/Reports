@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Over View}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Over View}{2}{0}{1}
+\beamer@sectionintoc {2}{Software Learning}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Software Learning}{3}{0}{2}
+\beamer@sectionintoc {3}{Investigation on the Subject}{4}{0}{3}
+\beamer@subsectionintoc {3}{1}{Investigation on the Subject}{4}{0}{3}
+\beamer@sectionintoc {4}{Research Been Done}{5}{0}{4}
+\beamer@subsectionintoc {4}{1}{Main Idea of our work}{5}{0}{4}
+\beamer@subsectionintoc {4}{2}{Exclusive Process}{6}{0}{4}
+\beamer@subsectionintoc {4}{3}{Inclusive Process}{10}{0}{4}
+\beamer@sectionintoc {5}{Work to be done}{14}{0}{5}
+\beamer@subsectionintoc {5}{1}{Work to be done}{14}{0}{5}

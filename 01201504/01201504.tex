@@ -1,0 +1,306 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{overpic}
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Short title]{Results of Recent Work} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Ma Xuning} % Your name
+\institute[N.K.U] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Nankai University\\ % Your institution for the title page
+\medskip
+\textit{maxn@ihep.ac.cn} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{Exclusive Process} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+\subsection{Event Selections}
+\begin{frame}
+\frametitle{Event Selections}
+\begin{block}{Good Charged tracks selections}
+\begin{itemize}
+\item $V_{xy} < 1 cm$, $ | V_z | < 10 cm$ ( except for the two tracks from $K_S^0$ )
+\item $|\cos\theta < 0.93 |$
+\end{itemize}
+\end{block}
+\begin{block}{Good phton selections( $1\leq N_{\gamma}\leq 20$ )}
+\begin{itemize}
+\item $E_{\gamma} > 25 MeV$ for $|\cos\theta| < 0.8$
+\item $E_{\gamma} > 50 MeV$ for $0.86<|\cos\theta|<0.92$
+\item $0\leq TDC\leq 14 $( in unit of $50ns$ )
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Event Selections}
+To improve the efficiency of selections, we assume the following charged tracks as pions
+\bigskip
+\begin{block}{$K^0_S$ Reconstruction($N_{K^0_S \geq 1}$)}
+\begin{itemize}
+\item $L/\sigma_L > 2$\hspace($L$: decay length; $\sigma_L$: error of decay length)
+\item $|m^{invariant}_{\pi^+\pi^-} - m_{K^0_S} | \leq 20 MeV$
+\end{itemize}
+\end{block}
+\begin{block}{$\gamma\pi_+\pi_-$ list}
+\begin{itemize}
+\item $3.45<m_{\pi^+\pi^-}^{recoil}<3.65 GeV$
+\item $2.8<m_{\pi^+\pi^-}^{recoil}<3.2 GeV$
+\end{itemize}
+\end{block}
+\bigskip
+Combination with the minimum $\chi^2 = \chi^2_{4C} + \sum^N_{i=1}\chi^2_{PID}(i)$ is kept 
+\end{frame}
+
+\subsection{Optimized Selection} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+
+\begin{frame}
+\frametitle{Optimized Selections}
+The $\chi^2_{4C}$ cut is optimized with the figure of merit($FOM$)$\frac{S}{\sqrt{S+B}}$,
+and the optimized selections are presented following:
+
+\bigskip
+\begin{block}{$\chi^2$ Cut}
+\begin{itemize}
+\item $\sqrt{s} = 4.23 GeV$: $\chi^2_{4C} < 60$;
+\item $\sqrt{s} = 4.26 GeV$: $\chi^2_{4C} < 110$;
+\item $\sqrt{s} = 4.36 GeV$: $\chi^2_{4C} < 55$;
+\item $\sqrt{s} = 4.42 GeV$: $\chi^2_{4C} < 60$;
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+%------------------------------------------------
+\subsection{Results}
+
+\begin{frame}
+\frametitle{Results of $M_{\eta_c}$ after $4C$ kinematic fit}
+\vskip -0.2cm
+\begin{columns}[c]
+\begin{column}{0.5\textwidth}
+\begin{overpic}[width=0.94\textwidth]{figures/Exclusive/PipihcExclusive_4230_data_with_optimization.eps}
+\put(14,52){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+\end{overpic}
+\vskip 0.2 cm
+\begin{overpic}[width=0.94\textwidth]{figures/Exclusive/PipihcExclusive_4360_data_with_optimization.eps}
+\put(14,52){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+\end{overpic}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{overpic}[width=0.94\textwidth]{figures/Exclusive/PipihcExclusive_4260_data_with_optimization.eps}
+\put(14,52) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+\end{overpic}
+\vskip 0.2 cm
+\begin{overpic}[width=0.94\textwidth]{figures/Exclusive/PipihcExclusive_4420_data_with_optimization.eps}
+\put(14,52) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+\end{overpic}
+\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\section{Inclusive Process}
+\subsection{Event Selections}
+\begin{frame}
+\frametitle{Event Selections}
+\begin{block}{Good Charged tracks selections}
+\begin{itemize}
+\item $V_{xy} < 1 cm$, $ | V_z | < 10 cm$
+\item $|\cos\theta < 0.93 |$
+\end{itemize}
+\end{block}
+\begin{block}{Good phton selections( $1\leq N_{\gamma}\leq 20$ )}
+\begin{itemize}
+\item $E_{\gamma} > 25 MeV$ for $|\cos\theta| < 0.8$
+\item $E_{\gamma} > 50 MeV$ for $0.86<|\cos\theta|<0.92$
+\item $0\leq TDC\leq 14 $( in unit of $50ns$ )
+\end{itemize}
+\end{block}
+We use the $\gamma\pi^+\pi^-$list to recoil the $\eta_c$ and $h_c$ signal
+\begin{block}{$\gamma\pi_+\pi_-$ list}
+\begin{itemize}
+\item $3.45<m_{\pi^+\pi^-}^{recoil}<3.65 GeV$
+\item $2.8<m_{\pi^+\pi^-}^{recoil}<3.2 GeV$
+\end{itemize}
+\end{block}
+\end{frame}
+
+\subsection{sideband}
+\begin{frame}
+\frametitle{sideband of recoil of two pions}
+As we can not do topology analysis upon the inclusive MC, we use the sideband method to analyze the results
+\begin{center}
+\begin{overpic}[width=0.8\textwidth]{figures/Inclusive/PipihcInclusive_4260_data_recoil_pipi_without_cut.eps}
+\put(23,10){\scriptsize\color{red}{\bf$3.485$}}
+\put(33,10){\scriptsize\color{red}{\bf$3.505$}}
+\put(34,13){\scriptsize\color{green}{\bf$3.515$}}
+\put(43,13){\scriptsize\color{green}{\bf$3.535$}}
+\put(45,10){\scriptsize\color{red}{\bf$3.545$}}
+\put(55,10){\scriptsize\color{red}{\bf$3.565$}}
+\end{overpic}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{results of sideband $\eta_c$}
+\vskip 0.3cm
+\begin{columns}[c]
+\begin{column}{0.5\textwidth}
+\begin{overpic}[width=0.94\textwidth]{figures/Inclusive/PipihcInclusive_4230_data_sideband_2.eps}
+%\put(0,2){\small\color{blue}}{\bf\small\color{blue} 4230 sideband}
+\put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+\end{overpic}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{overpic}[width=0.94\textwidth]{figures/Inclusive/PipihcInclusive_4260_data_sideband_2.eps}
+\put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+\end{overpic}
+\end{column}
+\end{columns}
+\begin{center}
+\tiny\color{brown}{The upper ones draw the sideband and signal regions together,
+        while the lower ones draw net events}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{results of sideband $\eta_c$}
+\vskip 0.3cm
+\begin{columns}[c]
+\begin{column}{0.5\textwidth}
+\begin{overpic}[width=0.94\textwidth]{figures/Inclusive/PipihcInclusive_4360_data_sideband_2.eps}
+\put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+\end{overpic}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{overpic}[width=0.94\textwidth]{figures/Inclusive/PipihcInclusive_4420_data_sideband_2.eps}
+\put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+\end{overpic}
+\end{column}
+\end{columns}
+\begin{center}
+\tiny\color{brown}{The upper ones draw the sideband and signal regions together,
+        while the lower ones draw net events}
+\end{center}
+\end{frame}
+
+\section{Summary}
+\begin{frame}
+\begin{block}{summary of the exclusive process}
+\begin{itemize}
+\item The signal of the exclusive process is clear, yet we don't know much about its background
+\item The number of the total signal events is about 350, which is less than the $\psi\prime$ data.
+\end{itemize}
+\end{block}
+\begin{block}{summary of the exclusive process}
+\begin{itemize}
+\item The signal of the inclusive process is observable, but the background is somehow too thick
+\item We have to deal with the significance of the signal
+\item The sideband results are rather crude.
+\end{itemize}
+\end{block}
+\bigskip
+If things are settled, we should start to fit the results and get the branching fraction
+\end{frame}
+
+\end{document}

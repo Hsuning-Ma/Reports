@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {2}{进度}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{之前的工作}{3}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{1}{导言}{3}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{2}{结果}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{当前的工作}{5}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{导言}{5}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{2}{结果}{6}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{3}{同时拟合}{8}{0}{2}
+\beamer@sectionintoc {3}{当前遇到的问题}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{拟合}{9}{0}{3}
+\beamer@sectionintoc {4}{总结}{10}{0}{4}

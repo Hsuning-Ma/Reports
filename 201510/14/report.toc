@@ -1,0 +1,17 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Measurement of multiplicity of the inclusive decays of $\eta _c$}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Fitting}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Multiplicity of $N_{good}$ @ different energy points}{5}{0}{1}
+\beamer@sectionintoc {2}{Motivation, Methods and Data Sets}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Motivation}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Methods}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Data Sets}{8}{0}{2}
+\beamer@sectionintoc {3}{Event Selections}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{General Event Selections}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{Optimized Event Selections}{11}{0}{3}
+\beamer@sectionintoc {4}{the Inclusive Mode}{13}{0}{4}
+\beamer@sectionintoc {5}{Measurement of Branching Fractions}{15}{0}{5}
+\beamer@subsectionintoc {5}{1}{Simultaneous Fit}{18}{0}{5}
+\beamer@subsectionintoc {5}{2}{the Branching Fraction of $\eta _c\to K^+ K^- \pi ^0 $}{19}{0}{5}
+\beamer@subsectionintoc {5}{3}{Results after optimized selections of $\eta _c\to 2(\pi ^+\pi ^-\pi ^0)$}{20}{0}{5}
+\beamer@sectionintoc {6}{Summary}{21}{0}{6}

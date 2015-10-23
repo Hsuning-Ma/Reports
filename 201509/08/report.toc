@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Measurement of multiplicity of the inclusive decays of $\eta _c$}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Fitting}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Multiplicity of $N_{good}$ @ different energy points}{5}{0}{1}
+\beamer@sectionintoc {2}{Measurement of the Branching Fraction of $\eta _c\to \pi ^+\pi ^-\pi ^0$}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Motivation}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Methods}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Data Set}{8}{0}{2}
+\beamer@subsectionintoc {2}{4}{Event Selections}{9}{0}{2}
+\beamer@subsectionintoc {2}{5}{Optimized Selection}{11}{0}{2}

@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Recent work}{2}{0}{1}
+\beamer@sectionintoc {2}{Input-output check}{3}{0}{2}
+\beamer@sectionintoc {3}{Observation of the signals of $h_c$ and ${}_c$}{6}{0}{3}
