@@ -1,0 +1,316 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+  % The Beamer class comes with a number of default slide themes
+  % which change the colors and layouts of slides. Below this is a list
+  % of all the themes, uncomment each in turn to see what they look like.
+
+  %\usetheme{default}
+  %\usetheme{AnnArbor}
+  %\usetheme{Antibes}
+  %\usetheme{Bergen}
+  %\usetheme{Berkeley}
+  %\usetheme{Berlin}
+  %\usetheme{Boadilla}
+  %\usetheme{CambridgeUS}
+  %\usetheme{Copenhagen}
+  %\usetheme{Darmstadt}
+  %\usetheme{Dresden}
+  %\usetheme{Frankfurt}
+  %\usetheme{Goettingen}
+  %\usetheme{Hannover}
+  %\usetheme{Ilmenau}
+  %\usetheme{JuanLesPins}
+  %\usetheme{Luebeck}
+  \usetheme{Madrid}
+  %\usetheme{Malmoe}
+  %\usetheme{Marburg}
+  %\usetheme{Montpellier}
+  %\usetheme{PaloAlto}
+  %\usetheme{Pittsburgh}
+  %\usetheme{Rochester}
+  %\usetheme{Singapore}
+  %\usetheme{Szeged}
+  %\usetheme{Warsaw}
+
+  % As well as themes, the Beamer class has a number of color themes
+  % for any slide theme. Uncomment each of these in turn to see how it
+  % changes the colors of your current slide theme.
+
+  %\usecolortheme{beaver} %+
+  %\usecolortheme{beetle} %-
+  \usecolortheme{crane} %+
+  %\usecolortheme{dolphin} %+
+  %\usecolortheme{dove} %+
+  %\usecolortheme{lily} %+
+  %\usecolortheme{orchid} %+
+  %\usecolortheme{rose}
+  %\usecolortheme{seagull} %+
+  %\usecolortheme{seahorse}
+  %\usecolortheme{whale}
+  %\usecolortheme{wolverine}
+
+  %\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+  %\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+  %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{esvect}
+\usepackage{overpic}
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{multirow}
+\usepackage{hhline}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Measurement of Branching fraction]{Measurement of the branching fraction of $\eta_c\to 2(\pi^+\pi^-\pi^0)$}  
+%The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Ma Xuning \inst{1} \and Wang Zhiyong\inst{2} \and Yu Chunxu \inst{1}} 
+\institute[]{\inst{1} Nankai Univ. \and \inst{2} IHEP}
+\date{\today} 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\begin{frame}
+  \titlepage 
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\begin{frame}
+  \frametitle{Overview} 
+  \setcounter{tocdepth}{2}
+  \tableofcontents 
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{Measurement of multiplicity of the inclusive decays of $\eta_c$}
+\subsection{Fitting}
+\begin{frame}{Fit data @ 4260 MeV simultaneously}
+  \begin{overpic}[width=0.99\textwidth]{figures/multiplicity_4260_fit_data.eps}
+  \end{overpic}
+\end{frame}
+\begin{frame}{Fit MC @ 4260 MeV simultaneously}
+  \begin{overpic}[width=0.99\textwidth]{figures/multiplicity_4260_fit_MC.eps}
+  \end{overpic}
+\end{frame}
+\subsection{Multiplicity of $N_{good}$ @ different energy points}
+\begin{frame}{Multiplicity @ 4.23, 4.26, 4.36, 4.42 GeV}
+  \begin{columns}[c]
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \begin{overpic}[width=0.8\textwidth]{figures/Multiplicity_data_and_MC_4230.eps}
+        \end{overpic}
+        \begin{overpic}[width=0.8\textwidth]{figures/Multiplicity_data_and_MC_4360.eps}
+        \end{overpic}
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \begin{overpic}[width=0.8\textwidth]{figures/Multiplicity_data_and_MC_4260.eps}
+        \end{overpic}
+        \begin{overpic}[width=0.8\textwidth]{figures/Multiplicity_data_and_MC_4420.eps}
+        \end{overpic}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{Measurement of the Branching Fraction of $\eta_c\to\pi^+\pi^-\pi^0$}
+\subsection{Motivation}
+\begin{frame}{Motivation}
+  \begin{itemize}
+    \item The systematic uncertainty of the efficiency of the inclusive decays is essential to measure the branching fraction of $\eta_c\to K_S^0 K^{\pm}\pi^{\mp}$;
+    \item From the above results of multiplicity of $N_{good}$, we can see that there exists difference between Monto Carlo sample and data;
+    \item The difference between data and Monto Carlo sample leads systematic uncertainty to the efficiency;
+    \item To determine the uncertainty of the efficiency, we measured another decay mode of $\eta_c$, which is $\eta_c\to\pi^+\pi^-\pi^0$ which has the largest branching fraction.
+  \end{itemize}
+\end{frame}
+\subsection{Methods}
+\begin{frame}{Methods}
+  \begin{block}{Methods to measure the branching fraction}
+    \begin{itemize}
+      \item We measure the branching fraction of $\eta_c\to 2(\pi^+\pi^-\pi^0)$ via the decays
+        \begin{itemize}
+          \item $e^+e^-\to \pi^+ \pi^- h_c, h_c\to \gamma\eta_c, \eta_c\to 2(\pi^+\pi^-\pi^0)$( exclusive mode )
+          \item $e^+e^-\to \pi^+ \pi^- h_c, h_c\to \gamma\eta_c, \eta_c\to X$( inclusive mode )
+        \end{itemize}
+      \item The Branching fraction is\\
+        \begin{center}
+          $Br(\eta_c\to 2(\pi^+\pi^-\pi^0)) = \frac{N^{exclusive}_{signal}}{N^{inclusive}_{signal}}\bullet\frac{\epsilon^{inclusive}}{\epsilon^{exclusive}}\bullet\frac{1}{Br(\pi^0\to\gamma\gamma)*Br(\pi^0\to\gamma\gamma)}$.
+        \end{center}
+    \end{itemize}
+  \end{block}
+  \begin{block}{}
+    \begin{itemize}
+      \item And via this method we can also cancel parts of the system errors.
+      \item However it is a little bit hard to determine the efficiency of inclusive process. So far we have not known all $\eta_c$ decays well.
+    \end{itemize}
+  \end{block}
+\end{frame}
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\subsection{Data Set}
+\begin{frame}{Data Sets and Monto Carlo Samples}
+  \begin{block}{BOSS version}
+    6.6.4.p01
+  \end{block}
+  \begin{block}{Data Sets}
+    We currently used the $XYZ$ data at the energy points of\\
+    \begin{center}
+      $4.23 GeV$, $4.26 GeV$, $4.36 GeV$, $4.42 GeV$\\
+    \end{center}
+  \end{block}
+  \begin{block}{Monto Carlo Samples}
+    $200 K$ Monto Carlo Samples are generated at each of the four energy points of $4.23 GeV$, $4.26 GeV$, $4.36 GeV$ and $4.42 GeV$.
+  \end{block}
+\end{frame}
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\subsection{Event Selections}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+  \frametitle{Event Selections}
+  \begin{block}{Good Charged tracks selections}
+    \begin{itemize}
+      \item $V_{xy} < 1 cm$, $ | V_z | < 10 cm$ ( except for the two tracks from $K_S^0$ )
+      \item $|\cos\theta < 0.93 |$
+      \item $N_{good}\geq 6$
+    \end{itemize}
+  \end{block}
+  \begin{block}{Good photon selections( $1\leq N_{\gamma}\leq 20$ )}
+    \begin{itemize}
+      \item $E_{\gamma} > 25 MeV$ for $|\cos\theta| < 0.8$
+      \item $E_{\gamma} > 50 MeV$ for $0.86<|\cos\theta|<0.92$
+      \item $0\leq TDC\leq 14 $( in unit of $50ns$ )
+    \end{itemize}
+  \end{block}
+  \bigskip
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{Event Selections}
+  \begin{block}{$\pi^0$ Reconstruction( $N_{\pi^0}\geq 2$ )}
+    \begin{itemize}
+      \item $0.12GeV<M_{\gamma\gamma}<0.15GeV$;
+      \item 1-C Kinematic Fit
+    \end{itemize}
+  \end{block}
+  \begin{block}{preliminary $\gamma\pi^+\pi^-$ list}
+    \begin{itemize}
+      \item $3.46<m_{\pi^+\pi^-}^{recoil}<3.59 GeV$ ( $h_c$ mass region )
+      \item $2.5<m_{\pi^+\pi^-\gamma}^{recoil}<3.4 GeV$ ( $\eta_c$ mass region )
+    \end{itemize}
+  \end{block}
+  $3\pi^+$ , $3\pi^-$, at least $1 \gamma\pi^+\pi^-$ list and at least $2\pi^0$ are required.
+  Combination with the minimum $\chi^2 = \chi^2_{4C} + \sum^N_{i=1}\chi^2_{PID}(i)+\sum^2_{i=1}\chi^2_{\pi^0}(i)$ is kept 
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\subsection{Optimized Selection}
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Optimized Selections}
+  \begin{itemize}
+    \item $3.515 < M^{recoil}_{\pi^+\pi^-} < 3.535$ ( $M_{h_c}\pm 3\sigma$ )\\
+      \begin{columns}[c]
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4230_pipi_cut.eps}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4260_pipi_cut.eps}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4360_pipi_cut.eps}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4420_pipi_cut.eps}
+          \end{overpic}
+        \end{column}
+      \end{columns}
+      \bigskip
+    \item The $\chi^2_{4C}$ cut is optimized with the figure of merit($FOM$)$\frac{S}{\sqrt{S+B}}$
+      \begin{columns}[c]
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_optimization_chisq4c_min_total_pipipipipi0pi0_at_4230.eps}
+            \put(14,-5){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+            \put(28,12){\scriptsize\color{blue}{\bf $\chi^2_{4C}<35$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_optimization_chisq4c_min_total_pipipipipi0pi0_at_4260.eps}
+            \put(14,-5){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+            \put(28,12){\scriptsize\color{blue}{\bf $\chi^2_{4C}<30$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_optimization_chisq4c_min_total_pipipipipi0pi0_at_4360.eps}
+            \put(14,-5){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+            \put(28,12){\scriptsize\color{blue}{\bf $\chi^2_{4C}<25$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_optimization_chisq4c_min_total_pipipipipi0pi0_at_4420.eps}
+            \put(14,-5){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+            \put(28,12){\scriptsize\color{blue}{\bf $\chi^2_{4C}<35$}}
+          \end{overpic}
+        \end{column}
+      \end{columns}
+  \end{itemize}
+\end{frame}
+\begin{frame}{Results after optimized selections}
+  \begin{columns}[c]
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \begin{overpic}[width=0.99\textwidth]{figures/signal_data_after_optimized_selections_4230.eps}
+          \put(14,50){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+        \end{overpic}
+        \begin{overpic}[width=0.99\textwidth]{figures/signal_data_after_optimized_selections_4360.eps}
+          \put(14,50){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+        \end{overpic}
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \begin{overpic}[width=0.99\textwidth]{figures/signal_data_after_optimized_selections_4260.eps}
+          \put(14,50){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+        \end{overpic}
+        \begin{overpic}[width=0.99\textwidth]{figures/signal_data_after_optimized_selections_4420.eps}
+          \put(14,50){\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+        \end{overpic}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+\end{document}
