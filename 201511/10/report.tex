@@ -119,11 +119,11 @@
 %----------------------------------------------------------------------------------------
 \subsection{Fitting}
 \begin{frame}{Fit data @ 4260 MeV simultaneously}
-  \begin{overpic}[width=0.99\textwidth]{figures/Multiplicity/Multiplicity_data_fit_4260.eps}
+  \begin{overpic}[width=0.99\textwidth]{figures/Multiplicity_data_fit_4260.eps}
   \end{overpic}
 \end{frame}
 \begin{frame}{Fit MC @ 4260 MeV simultaneously}
-  \begin{overpic}[width=0.99\textwidth]{figures/Multiplicity/Multiplicity_MC_fit_4260.eps}
+  \begin{overpic}[width=0.99\textwidth]{figures/Multiplicity_MC_fit_4260.eps}
   \end{overpic}
 \end{frame}
 \subsection{Multiplicity of $N_{good}$ @ different energy points}
@@ -131,27 +131,27 @@
   \begin{columns}[c]
     \begin{column}{0.25\textwidth}
       \begin{center}
-        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity/Multiplicity_data_and_MC_4230.eps}
+        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity_data_and_MC_4230.eps}
         \end{overpic}
         \tiny 4230
-        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity/Multiplicity_data_and_MC_4360.eps}
+        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity_data_and_MC_4360.eps}
         \end{overpic}
         \tiny 4360
       \end{center}
     \end{column}
     \begin{column}{0.25\textwidth}
       \begin{center}
-        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity/Multiplicity_data_and_MC_4260.eps}
+        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity_data_and_MC_4260.eps}
         \end{overpic}
         \tiny 4260
-        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity/Multiplicity_data_and_MC_4420.eps}
+        \begin{overpic}[width=0.98\textwidth]{figures/Multiplicity_data_and_MC_4420.eps}
         \end{overpic}
         \tiny 4420
       \end{center}
     \end{column}
     \begin{column}{0.5\textwidth}
       \begin{center}
-        \begin{overpic}[width=0.9\textwidth]{figures/Multiplicity/Multiplicity_data_sumup.eps}
+        \begin{overpic}[width=0.9\textwidth]{figures/Multiplicity_data_sumup.eps}
         \end{overpic}
         Sum of the 4 energy points
       \end{center}
@@ -256,76 +256,78 @@
 
 %----------------------------------------------------------------------------------------
 \begin{frame}{Event Selections}
-  \begin{block}{$\pi^0$ Reconstruction}
-    \begin{itemize}
-      \item $0.12GeV<M_{\gamma\gamma}<0.15GeV$;
-      \item 1-C Kinematic Fit
-    \end{itemize}
-  \end{block}
   \begin{block}{preliminary $\gamma\pi^+\pi^-$ list}
     \begin{itemize}
       \item $3.46<m_{\pi^+\pi^-}^{recoil}<3.59 GeV$ ( $h_c$ mass region )
       \item $2.5<m_{\pi^+\pi^-\gamma}^{recoil}<3.4 GeV$ ( $\eta_c$ mass region )
     \end{itemize}
   \end{block}
+  \begin{block}{$K_S^0$ reconstruction( $N_{K_S^0}\ge 1 $ ) (for $\eta_c\to K^0_S K^{\pm} \pi^{\mp}$)}
+    \begin{itemize}
+      \item $L/\sigma_L > 2$ (L:decay length; $\sigma_L$ error of decay length)
+      \item $| m_{\pi^=\pi^-} - m_{K_S^0}|\le 20 MeV$
+      \item We choose the one with the minimum $\chi_{K^0_S}^2 = \chi^2_{1^{st}V} + \chi^2_{2^{nd}V}$
+    \end{itemize}
+  \end{block}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}{Event Selections}
+  \begin{block}{$\pi^0$ Reconstruction}
+    \begin{itemize}
+      \item $0.12GeV<M_{\gamma\gamma}<0.15GeV$;
+      \item 1-C Kinematic Fit
+    \end{itemize}
+  \end{block}
   \begin{block}{for the exclusive modes}
     \begin{itemize}
       \item  $N_{\pi^0}\geq 1$ [for $\eta_c\to K^+K^-\pi^0$]
       \item  $N_{\pi^0}\geq 2$ [for $\eta_c\to 2(\pi^+\pi^-\pi^0)$]
-      \item Combination with the minimum 
-        \begin{center}
-          $\chi^2 = \chi^2_{4C} + \sum^N_{i=1}\chi^2_{PID}(i)+\sum^2_{i=1}\chi^2_{\pi^0}(i)$
-        \end{center}is kept 
     \end{itemize}
   \end{block}
+  Combination with the minimum 
+    \begin{center}
+      $\chi^2 = \chi^2_{4C} + \sum^N_{i=1}\chi^2_{PID}(i)+\sum^2_{i=1}\chi^2_{\pi^0}(i)$
+    \end{center}is kept 
 \end{frame}
 \subsection{Optimized Event Selections}
-\begin{frame}{the Optimized Selections}
+\begin{frame}{Optimized Selections}
   We choose the same range of $M^{recoil}_{\pi^+\pi^-}$ for both inclusive and exclusive processes.[ $3.515 < M^{recoil}_{\pi^+\pi^-} < 3.535$ ( $M_{h_c}\pm 3\sigma$ )],\\
 and use the sideband method to analyze the background shape of the inclusive mode
   \begin{columns}[c]
-      \begin{column}{0.5\textwidth}
-          \begin{center}
-              \begin{overpic}[width=0.7\textwidth]{figures/PipihcInclusive_4420_signalMC_sideband_range.eps}
-                  \put(15,20){\tiny\color{red}{\bf$3.485$}}
-                  \put(30,20){\tiny\color{red}{\bf$3.505$}}
-                  \put(40,23){\tiny\color{green}{\bf$3.515$}}
-                  \put(55,23){\tiny\color{green}{\bf$3.535$}}
-                  \put(68,20){\tiny\color{red}{\bf$3.545$}}
-                  \put(84,20){\tiny\color{red}{\bf$3.565$}}
-              \end{overpic}
-          \end{center}
-      \end{column}
-      \begin{column}{0.5\textwidth}
-          \begin{center}
-              \begin{overpic}[width=0.7\textwidth]{figures/PipihcInclusve_4230_pipi_sideband.eps}
-                  \put(15,20){\tiny\color{red}{\bf$3.485$}}
-                  \put(30,20){\tiny\color{red}{\bf$3.505$}}
-                  \put(40,23){\tiny\color{green}{\bf$3.515$}}
-                  \put(55,23){\tiny\color{green}{\bf$3.535$}}
-                  \put(68,20){\tiny\color{red}{\bf$3.545$}}
-                  \put(84,20){\tiny\color{red}{\bf$3.565$}}
-              \end{overpic}
-          \end{center}
-      \end{column}
-  \end{columns}
-  \bigskip
-  \begin{columns}[c]
-    \begin{column}{0.25\textwidth}
-      \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4230_pipi_cut.eps}
-      \end{overpic}
+    \begin{column}{0.33\textwidth}
+      \begin{center}
+        Exclusive Modes
+        \begin{overpic}[width=0.97\textwidth]{figures/hc_sig_sb_signalMC_KsKpi_at_4230.eps}
+          \put(30,23){\tiny\color{green}{\bf$3.515$}}
+          \put(45,23){\tiny\color{green}{\bf$3.535$}}
+        \end{overpic}
+      \end{center}
     \end{column}
-    \begin{column}{0.25\textwidth}
-      \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4260_pipi_cut.eps}
-      \end{overpic}
+    \vrule{}
+    \begin{column}{0.33\textwidth}
+      \begin{center}
+        Inclusive Modes
+        \begin{overpic}[width=0.97\textwidth]{figures/hc_sig_sb_signalMC_inc_at_4230.eps}
+          \put(10,20){\tiny\color{red}{\bf$3.485$}}
+          \put(25,20){\tiny\color{red}{\bf$3.505$}}
+          \put(30,25){\tiny\color{green}{\bf$3.515$}}
+          \put(45,25){\tiny\color{green}{\bf$3.535$}}
+          \put(55,20){\tiny\color{red}{\bf$3.545$}}
+          \put(75,20){\tiny\color{red}{\bf$3.580$}}
+        \end{overpic}
+      \end{center}
     \end{column}
-    \begin{column}{0.25\textwidth}
-      \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4360_pipi_cut.eps}
-      \end{overpic}
-    \end{column}
-    \begin{column}{0.25\textwidth}
-      \begin{overpic}[width=0.99\textwidth]{figures/PipihcExclusive_4420_pipi_cut.eps}
-      \end{overpic}
+    \begin{column}{0.33\textwidth}
+      \begin{center}
+        \begin{overpic}[width=0.97\textwidth]{figures/hc_sig_sb_data_inc_at_4230.eps}
+          \put(10,20){\tiny\color{red}{\bf$3.485$}}
+          \put(25,20){\tiny\color{red}{\bf$3.505$}}
+          \put(30,25){\tiny\color{green}{\bf$3.515$}}
+          \put(45,25){\tiny\color{green}{\bf$3.535$}}
+          \put(55,20){\tiny\color{red}{\bf$3.545$}}
+          \put(75,20){\tiny\color{red}{\bf$3.580$}}
+        \end{overpic}
+      \end{center}
     \end{column}
   \end{columns}
 \end{frame}
@@ -359,18 +361,18 @@ and use the sideband method to analyze the background shape of the inclusive mod
     \bigskip
     \item Table for $\chi^2_{4C}$ cut 
       \begin{table}[!hbp]\footnotesize
-        \begin{tabular}{c|c|c|c}
+        \begin{tabular}{c|c|c|c|c}
           \hline
           \hline
-          $\chi^2_{4C}$ cut & $\eta_c\to K^+ K^- \pi^0 $ & $\eta_c \to 2(\pi^+\pi^-\pi^0)$ & $\eta_c\to p \bar{p} $ \\
+        $\chi^2_{4C}$ cut & $\eta_c\to K^0_S K^{\pm}\pi^{\mp} $& $\eta_c\to K^+ K^- \pi^0 $ & $\eta_c \to 2(\pi^+\pi^-\pi^0)$ & $\eta_c\to p \bar{p} $ \\
           \hline
-          4230 & 25 & 35 & 75 \\
+          4230 & 45 & 25 & 35 & 75 \\
           \hline
-          4260 & 15 & 30 & 25 \\
+          4260 & 45 & 15 & 30 & 25 \\
           \hline
-          4360 & 25 & 25 & 40 \\
+          4360 & 45 & 25 & 25 & 40 \\
           \hline
-          4420 & 20 & 35 & 45 \\
+          4420 & 50 & 20 & 35 & 45 \\
           \hline
           \hline
         \end{tabular}
@@ -382,173 +384,194 @@ and use the sideband method to analyze the background shape of the inclusive mod
 \section{the Inclusive Mode}
 %----------------------------------------------------------------------------------------
 \begin{frame}{$M^{recoil}_{\pi^+\pi^-\gamma}$results of sideband ( the inclusive mode )}
-    \vskip 0.3cm
-    \begin{columns}[c]
-        \begin{column}{0.5\textwidth}
-            \begin{overpic}[width=0.90\textwidth]{figures/PipihcInclusive_4230_data_sideband_2.eps}
-                %\put(0,2){\small\color{blue}}{\bf\small\color{blue} 4230 sideband}
-                \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
-            \end{overpic}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{overpic}[width=0.90\textwidth]{figures/PipihcInclusive_4260_data_sideband_2.eps}
-                \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
-            \end{overpic}
-        \end{column}
-    \end{columns}
-    \begin{center}
-        \scriptsize\color{blue}{The upper ones draw the sideband and signal regions together,\\
-        while the lower ones draw net events}
-    \end{center}
+  \vskip 0.3cm
+  \begin{columns}[c]
+    \begin{column}{0.5\textwidth}
+      \begin{overpic}[width=0.90\textwidth]{figures/sideband_4230.eps}
+        %\put(0,2){\small\color{blue}}{\bf\small\color{blue} 4230 sideband}
+        \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+      \end{overpic}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{overpic}[width=0.90\textwidth]{figures/sideband_4260.eps}
+        \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+      \end{overpic}
+    \end{column}
+  \end{columns}
+  \begin{center}
+    \scriptsize\color{blue}{The upper ones draw the sideband and signal regions together,\\
+    while the lower ones draw net events}
+  \end{center}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
 \begin{frame}{$M^{recoil}_{\pi^+\pi^-\gamma}$results of sideband ( the inclusive mode )}
-    \vskip 0.3cm
-    \begin{columns}[c]
-        \begin{column}{0.5\textwidth}
-            \begin{overpic}[width=0.90\textwidth]{figures/PipihcInclusive_4360_data_sideband_2.eps}
-                \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
-            \end{overpic}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{overpic}[width=0.90\textwidth]{figures/PipihcInclusive_4420_data_sideband_2.eps}
-                \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
-            \end{overpic}
-        \end{column}
-    \end{columns}
-    \begin{center}
-        \scriptsize\color{blue}{The upper ones draw the sideband and signal regions together,\\
-        while the lower ones draw net events}
-    \end{center}
+  \vskip 0.3cm
+  \begin{columns}[c]
+    \begin{column}{0.5\textwidth}
+      \begin{overpic}[width=0.90\textwidth]{figures/sideband_4360.eps}
+        \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+      \end{overpic}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{overpic}[width=0.90\textwidth]{figures/sideband_4420.eps}
+        \put(30,100) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+      \end{overpic}
+    \end{column}
+  \end{columns}
+  \begin{center}
+    \scriptsize\color{blue}{The upper ones draw the sideband and signal regions together,\\
+    while the lower ones draw net events}
+  \end{center}
 \end{frame}
 %----------------------------------------------------------------------------------------
 \section{Measurement of Branching Fractions}
 \begin{frame}{Fit Simultaneously}
-    To fit the distribution of $M^{recoil}_{\pi^+\pi^-\gamma}$, we use the fit function\\
-    \begin{center}
-        $F(m) = \sigma\otimes[\epsilon(m)\times|S(m)|^2\times E^3_{\gamma}\times d(E_{\gamma})] + B(m)$,
-    \end{center}
-    where
-    \begin{itemize}
-        \item $d(E_{\gamma}) = \frac{E^2_0}{E_{\gamma}E_0 + ( E_{\gamma}-E_0 )^2}$,\\
-        \item $\sigma$ $\rightarrow$ Double-Gaussian or Gaussian shape,
-        \item $S(m)$ $\rightarrow $Breit-Wigner shapes with common fixed $M$ and $\sigma$,
-        \item $B(m)$ $\rightarrow $
-            \begin{itemize}
-                \item Chebyshev Polynomial for the exclusive mode,
-                \item Events from sideband of $h_c$ for inclusive mode.
-            \end{itemize}
-    \end{itemize}
+  To fit the distribution of $M^{recoil}_{\pi^+\pi^-\gamma}$, we use the fit function\\
+  \begin{center}
+    $F(m) = \sigma\otimes[\epsilon(m)\times|S(m)|^2\times E^3_{\gamma}\times d(E_{\gamma})] + B(m)$,
+  \end{center}
+  where
+  \begin{itemize}
+    \item $d(E_{\gamma}) = \frac{E^2_0}{E_{\gamma}E_0 + ( E_{\gamma}-E_0 )^2}$,\\
+    \item $\sigma$ $\rightarrow$ Double-Gaussian or Gaussian shape,
+    \item $S(m)$ $\rightarrow $Breit-Wigner shapes with common fixed $M$ and $\sigma$,
+    \item $B(m)$ $\rightarrow $
+      \begin{itemize}
+        \item Chebyshev Polynomial for the exclusive mode,
+        \item Events from sideband of $h_c$ for inclusive mode.
+      \end{itemize}
+  \end{itemize}
 \end{frame}
 %----------------------------------------------------------------------------------------
 \begin{frame}{Efficiency Curves}
-    We generate large-width signal Monto Carlo samples,\\
-    and divide the MC truth after selection by the truth before selection to get the efficiency curve.
-    \bigskip
-    \begin{columns}[c]
-        \begin{column}{0.55\textwidth}
-              \tiny{$\eta_c\to K^+K^-\pi^0$:}
-            \begin{columns}[c]
-              \begin{column}{0.25\textwidth}
-                      \begin{overpic}[width=1.0\textwidth]{figures/KKpi0/PipihcExclusive_efficiency_curve_KKpi0_at_4230.eps}
-                          \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
-                      \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                      \begin{overpic}[width=1.0\textwidth]{figures/KKpi0/PipihcExclusive_efficiency_curve_KKpi0_at_4360.eps}
-                          \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
-                      \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                    \begin{overpic}[width=1.0\textwidth]{figures/KKpi0/PipihcExclusive_efficiency_curve_KKpi0_at_4260.eps}
-                        \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
-                    \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                    \begin{overpic}[width=1.0\textwidth]{figures/KKpi0/PipihcExclusive_efficiency_curve_KKpi0_at_4420.eps}
-                        \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
-                    \end{overpic}
-              \end{column}
-            \end{columns}
-    \bigskip
-              \tiny{$\eta_c\to 2(\pi^+\pi^-\pi^0)$:}
-            \begin{columns}[c]
-              \begin{column}{0.25\textwidth}
-                  \begin{overpic}[width=1.0\textwidth]{figures/pipipipipi0pi0/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4230.eps}
-                    \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
-                  \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                  \begin{overpic}[width=1.0\textwidth]{figures/pipipipipi0pi0/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4360.eps}
-                    \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
-                  \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                      \begin{overpic}[width=1.0\textwidth]{figures/pipipipipi0pi0/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4260.eps}
-                          \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
-                      \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                      \begin{overpic}[width=1.0\textwidth]{figures/pipipipipi0pi0/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4420.eps}
-                          \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
-                      \end{overpic}
-              \end{column}
-            \end{columns}
-    \bigskip
-              \tiny{$\eta_c\to p\bar{p}$:}
-            \begin{columns}[c]
-              \begin{column}{0.25\textwidth}
-                  \begin{overpic}[width=1.0\textwidth]{figures/ppbar/PipihcExclusive_efficiency_curve_ppbar_at_4230.eps}
-                    \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
-                  \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                  \begin{overpic}[width=1.0\textwidth]{figures/ppbar/PipihcExclusive_efficiency_curve_ppbar_at_4360.eps}
-                    \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
-                  \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                      \begin{overpic}[width=1.0\textwidth]{figures/ppbar/PipihcExclusive_efficiency_curve_ppbar_at_4260.eps}
-                          \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
-                      \end{overpic}
-              \end{column}
-              \begin{column}{0.25\textwidth}
-                      \begin{overpic}[width=1.0\textwidth]{figures/ppbar/PipihcExclusive_efficiency_curve_ppbar_at_4420.eps}
-                          \put(20,25) {\tiny\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
-                      \end{overpic}
-              \end{column}
-            \end{columns}
+  We generate large-width signal Monto Carlo samples,\\
+  and divide the MC truth after selection by the truth before selection to get the efficiency curve.
+  \bigskip
+  \begin{columns}[c]
+    \begin{column}{0.55\textwidth}
+      \tiny{$\eta_c\to K_S^0 K^{\pm}\pi^{\mp}$:}
+      \begin{columns}[c]
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KsKpi_at_4230.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+          \end{overpic}
         \end{column}
-        \hspace{5pt}
-        \vrule{}
-        \hspace{5pt}
-        \begin{column}{0.350\textwidth}
-          \tiny{Inclusive Processes:}
-            \begin{columns}[c]
-                \begin{column}{0.5\textwidth}
-                    \begin{center}
-                        \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4230_efficiency_curve.eps}
-                            \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
-                        \end{overpic}
-                        \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4360_efficiency_curve.eps}
-                            \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
-                        \end{overpic}
-                    \end{center}
-                \end{column}
-                \begin{column}{0.5\textwidth}
-                    \begin{center}
-                        \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4260_efficiency_curve.eps}
-                            \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
-                        \end{overpic}
-                        \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4420_efficiency_curve.eps}
-                            \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
-                        \end{overpic}
-                    \end{center}
-                \end{column}
-            \end{columns}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KsKpi_at_4360.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+          \end{overpic}
         \end{column}
-    \end{columns}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KsKpi_at_4260.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KsKpi_at_4420.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+          \end{overpic}
+        \end{column}
+      \end{columns}
+      \tiny{$\eta_c\to K^+K^-\pi^0$:}
+      \begin{columns}[c]
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KKpi0_at_4230.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KKpi0_at_4360.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KKpi0_at_4260.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_KKpi0_at_4420.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+          \end{overpic}
+        \end{column}
+      \end{columns}
+      \tiny{$\eta_c\to 2(\pi^+\pi^-\pi^0)$:}
+      \begin{columns}[c]
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4230.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4360.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4260.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_pipipipipi0pi0_at_4420.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+          \end{overpic}
+        \end{column}
+      \end{columns}
+      \tiny{$\eta_c\to p\bar{p}$:}
+      \begin{columns}[c]
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_ppbar_at_4230.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_ppbar_at_4360.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_ppbar_at_4260.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+          \end{overpic}
+        \end{column}
+        \begin{column}{0.25\textwidth}
+          \begin{overpic}[width=1.0\textwidth]{figures/PipihcExclusive_efficiency_curve_ppbar_at_4420.eps}
+            \put(10,20) {\tiny\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+          \end{overpic}
+        \end{column}
+        \end{columns}
+      \end{column}
+      \hspace{5pt}
+      \vrule{}
+      \hspace{5pt}
+      \begin{column}{0.350\textwidth}
+        \tiny{Inclusive Processes:}
+        \begin{columns}[c]
+          \begin{column}{0.5\textwidth}
+            \begin{center}
+              \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4230_efficiency_curve.eps}
+                \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.23GeV$}}
+              \end{overpic}
+              \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4360_efficiency_curve.eps}
+                  \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.36GeV$}}
+              \end{overpic}
+            \end{center}
+          \end{column}
+          \begin{column}{0.5\textwidth}
+            \begin{center}
+              \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4260_efficiency_curve.eps}
+                \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.26GeV$}}
+              \end{overpic}
+              \begin{overpic}[width=1.0\textwidth]{figures/Pipihc_Inclusive_4420_efficiency_curve.eps}
+                \put(20,25) {\scriptsize\color{blue}{\bf $\sqrt{s} = 4.42GeV$}}
+              \end{overpic}
+            \end{center}
+          \end{column}
+        \end{columns}
+      \end{column}
+  \end{columns}
 \end{frame}
 %----------------------------------------------------------------------------------------
 \begin{frame}{Resolution and Efficiency}
@@ -561,14 +584,19 @@ and use the sideband method to analyze the background shape of the inclusive mod
             \hhline{~~----~~}
             \multicolumn{2}{c|}{} & $M_1( MeV )$ & $\sigma_1( MeV )$ & $M_2( MeV )$ & $\sigma_2( MeV )$ & &  \\
             \hline
-            \multirow{4}{*}{\rotatebox{90}{$K^+K^-\pi^0$}} & 4230 & 12.55 & 17.41 & - & - & - & 16.04 \\
-            \hhline{~-------} & 4260 & 10.73 & 15.46 & - & - & - & 15.04 \\
-            \hhline{~-------} & 4360 & 12.64 & 17.26 & - & - & - & 18.96 \\
-            \hhline{~-------} & 4420 & 12.13 & 16.78 & - & - & - & 18.00 \\
+            \multirow{4}{*}{\rotatebox{90}{$K^0_S K^{\pm}\pi^{\mp}$}} & 4230 & 13.21 & 19.91 & - & - & - & 17.68 \\
+            \hhline{~-------} & 4260 & 13.28 & 19.17 & - & - & - & 19.87 \\
+            \hhline{~-------} & 4360 & 13.64 & 19.37 & - & - & - & 20.88 \\
+            \hhline{~-------} & 4420 & 13.79 & 19.65 & - & - & - & 21.44 \\
             \hline
-            \multirow{4}{*}{\rotatebox{90}{$2(\pi^+\pi^-\pi^0)$}} & 4230 & 13.18 & 20.87 & - & - & - & 2.95 \\
-            \hhline{~-------} & 4260 & 11.04 & 18.16 & - & - & - & 2.63 \\
-            \hhline{~-------} & 4360 & 13.87 & 19.50 & - & - & - & 3.42 \\
+            \multirow{4}{*}{\rotatebox{90}{$K^+K^-\pi^0$}} & 4230 & 11.92 & 17.65 & - & - & - & 16.09 \\
+            \hhline{~-------} & 4260 & 10.11 & 15.63 & - & - & - & 15.46 \\
+            \hhline{~-------} & 4360 & 11.84 & 17.26 & - & - & - & 18.98 \\
+            \hhline{~-------} & 4420 & 11.45 & 16.50 & - & - & - & 18.08 \\
+            \hline
+            \multirow{4}{*}{\rotatebox{90}{$2(\pi^+\pi^-\pi^0)$}} & 4230 & 12.34 & 20.74 & - & - & - & 2.95 \\
+            \hhline{~-------} & 4260 & 10.51 & 18.40 & - & - & - & 2.63 \\
+            \hhline{~-------} & 4360 & 13.05 & 19.62 & - & - & - & 3.41 \\
             \hhline{~-------} & 4420 & 13.03 & 18.96 & - & - & - & 3.10 \\
             \hline
             \multirow{4}{*}{\rotatebox{90}{$p\bar{p}$}} & 4230 & 14.46 & 20.19 & - & - & - & 35.04 \\
@@ -576,10 +604,10 @@ and use the sideband method to analyze the background shape of the inclusive mod
             \hhline{~-------} & 4360 & 13.35 & 18.82 & - & - & - & 40.35 \\
             \hhline{~-------} & 4420 & 13.35 & 19.03 & - & - & - & 42.00 \\
             \hline
-            \multirow{4}{*}{\rotatebox{90}{Inclusive}} & 4230 & 2.61 & 11.29 & 23.61 & 26.37 & 6.44614e-01 & 48.12 \\
-            \hhline{~-------} & 4260 & 1.73 & 10.79 & 20.13 & 23.70 & 6.04471e-01 & 44.14 \\
-            \hhline{~-------} & 4360 & 1.64 & 10.73 & 20.54 & 23.52 & 6.01291e-01 & 42.59 \\
-            \hhline{~-------} & 4420 & 2.45 & 11.28 & 22.10 & 25.76 & 6.34061e-01 & 51.15 \\
+            \multirow{4}{*}{\rotatebox{90}{Inclusive}} & 4230 & 2.61 & 11.29 & 23.61 & 26.37 & 6.44614e-01 & 47.73 \\
+            \hhline{~-------} & 4260 & 1.73 & 10.79 & 20.13 & 23.70 & 6.04471e-01 & 50.11 \\
+            \hhline{~-------} & 4360 & 1.64 & 10.73 & 20.54 & 23.52 & 6.01291e-01 & 50.21 \\
+            \hhline{~-------} & 4420 & 2.45 & 11.28 & 22.10 & 25.76 & 6.34061e-01 & 50.31 \\
             \hline
             \hline
         \end{tabular}
@@ -588,23 +616,30 @@ and use the sideband method to analyze the background shape of the inclusive mod
 %----------------------------------------------------------------------------------------
 \subsection{Simultaneous Fit}
 %----------------------------------------------------------------------------------------
+\begin{frame}{Simultaneous Fit ( $\eta_c\to K^0_S K{\pm}\pi^{\mp}$ )}
+    \begin{center}
+        \begin{overpic}[width=0.90\textwidth]{figures/PipihcKsKpi_data_fit_simultaneous.eps}
+        \end{overpic}
+    \end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
 \begin{frame}{Simultaneous Fit ( $\eta_c\to K^+ K^- \pi^0 $ )}
     \begin{center}
-        \begin{overpic}[width=0.90\textwidth]{figures/KKpi0/PipihcKKpi0_data_fit_simultaneous.eps}
+        \begin{overpic}[width=0.90\textwidth]{figures/PipihcKKpi0_data_fit_simultaneous.eps}
         \end{overpic}
     \end{center}
 \end{frame}
 %----------------------------------------------------------------------------------------
 \begin{frame}{Simultaneous Fit ( $\eta_c\to 2(\pi^+\pi^-\pi^0)$ )}
     \begin{center}
-        \begin{overpic}[width=0.90\textwidth]{figures/pipipipipi0pi0/Pipihcpipipipipi0pi0_data_fit_simultaneous.eps}
+        \begin{overpic}[width=0.90\textwidth]{figures/Pipihcpipipipipi0pi0_data_fit_simultaneous.eps}
         \end{overpic}
     \end{center}
 \end{frame}
 %----------------------------------------------------------------------------------------
 \begin{frame}{Simultaneous Fit ( $\eta_c\to p\bar{p}$ )}
     \begin{center}
-        \begin{overpic}[width=0.90\textwidth]{figures/ppbar/Pipihcppbar_data_fit_simultaneous.eps}
+        \begin{overpic}[width=0.90\textwidth]{figures/Pipihcppbar_data_fit_simultaneous.eps}
         \end{overpic}
     \end{center}
 \end{frame}
@@ -614,22 +649,24 @@ and use the sideband method to analyze the background shape of the inclusive mod
     \begin{column}{0.5\textwidth}
       \begin{center}
         \small $\eta_c\to K_S^0 K^{\pm} \pi^{\mp}$
+        \begin{overpic}[width=0.99\textwidth]{figures/PipihcKsKpi_data_fit_simultaneous_sumup.eps}
+        \end{overpic}
       \end{center}
       \begin{center}
         \small $\eta_c\to2(\pi^+\pi^-\pi^0)$
-        \begin{overpic}[width=0.99\textwidth]{figures/pipipipipi0pi0/Pipihcpipipipipi0pi0_data_fit_simultaneous_sumup.eps}
+        \begin{overpic}[width=0.99\textwidth]{figures/Pipihcpipipipipi0pi0_data_fit_simultaneous_sumup.eps}
         \end{overpic}
       \end{center}
     \end{column}
     \begin{column}{0.5\textwidth}
       \begin{center}
         \small $\eta_c\to K^+K^-\pi^0$
-        \begin{overpic}[width=0.99\textwidth]{figures/KKpi0/PipihcKKpi0_data_fit_simultaneous_sumup.eps}
+        \begin{overpic}[width=0.99\textwidth]{figures/PipihcKKpi0_data_fit_simultaneous_sumup.eps}
         \end{overpic}
       \end{center}
       \begin{center}
         \small $\eta_c\to p\bar{p}$
-        \begin{overpic}[width=0.99\textwidth]{figures/ppbar/Pipihcppbar_data_fit_simultaneous_sumup.eps}
+        \begin{overpic}[width=0.99\textwidth]{figures/Pipihcppbar_data_fit_simultaneous_sumup.eps}
         \end{overpic}
       \end{center}
     \end{column}
@@ -644,20 +681,25 @@ and use the sideband method to analyze the background shape of the inclusive mod
       \hline
       \multicolumn{2}{c|}{Category} & Number of signal & Branching Fraction(\%) \\
       \hhline{----}
-      \multirow{4}{*}{\rotatebox{90}{$K^+K^-\pi^0$}} & 4230 & 39.8 & \multirow{4}{*}{ $1.01\pm0.11$ } \\
-      \hhline{~--~} & 4260 & 28.3 & \\
-      \hhline{~--~} & 4360 & 31.3 & \\
-      \hhline{~--~} & 4420 & 43.9 & \\
+      \multirow{4}{*}{\rotatebox{90}{$K_S^0 K^{\pm}\pi^{\mp}$}} & 4230 & 69.9 & \multirow{4}{*}{ $2.62\pm0.21$ } \\
+      \hhline{~--~} & 4260 & 51.5 & \\
+      \hhline{~--~} & 4360 & 48.6 & \\
+      \hhline{~--~} & 4420 & 83.0 & \\
       \hline
-      \multirow{4}{*}{\rotatebox{90}{$2(\pi^+\pi^-\pi^0)$}} & 4230 & 95.4 & \multirow{4}{*}{ $13.13\pm1.54$ } \\
-      \hhline{~--~} & 4260 & 60.7 & \\
-      \hhline{~--~} & 4360 & 73.2 & \\
-      \hhline{~--~} & 4420 & 96.9 & \\
+      \multirow{4}{*}{\rotatebox{90}{$K^+K^-\pi^0$}} & 4230 & 42.2 & \multirow{4}{*}{ $1.20\pm0.13$ } \\
+      \hhline{~--~} & 4260 & 26.3 & \\
+      \hhline{~--~} & 4360 & 26.7 & \\
+      \hhline{~--~} & 4420 & 47.3 & \\
       \hline
-      \multirow{4}{*}{\rotatebox{90}{$p\bar{p}$}} & 4230 & 8.9 & \multirow{4}{*}{ $0.104\pm 0.022$ } \\
-      \hhline{~--~} & 4260 & 6.6 & \\
-      \hhline{~--~} & 4360 & 7.2 & \\
-      \hhline{~--~} & 4420 & 10.6 & \\
+      \multirow{4}{*}{\rotatebox{90}{$2(\pi^+\pi^-\pi^0)$}} & 4230 & 102.4 & \multirow{4}{*}{ $15.71\pm1.81$ } \\
+      \hhline{~--~} & 4260 & 56.4 & \\
+      \hhline{~--~} & 4360 & 63.0 & \\
+      \hhline{~--~} & 4420 & 103.8 & \\
+      \hline
+      \multirow{4}{*}{\rotatebox{90}{$p\bar{p}$}} & 4230 & 9.2 & \multirow{4}{*}{ $0.120\pm 0.027$ } \\
+      \hhline{~--~} & 4260 & 5.9 & \\
+      \hhline{~--~} & 4360 & 5.9 & \\
+      \hhline{~--~} & 4420 & 11.1 & \\
       \hline
       \hline
     \end{tabular}
@@ -678,10 +720,10 @@ and use the sideband method to analyze the background shape of the inclusive mod
         \hline
         decay mode & branching fraction(\%) & reference value(\%) \footnotemark[1] \\
         \hline
-        $\eta_c\to K_S^0K^{\pm}\pi^{\mp}$ & $2.39\pm0.20$ & $2.60\pm0.29\pm0.34\pm0.25$ \\
-        $\eta_c\to K^+ K^- \pi^0$ & $1.01\pm0.11$ & $ 1.04\pm0.17\pm0.11\pm0.10$ \\
-        $\eta_c\to2(\pi^+\pi^-\pi^0)$ & $13.13\pm1.54$ & $17.23\pm1.70\pm2.29\pm1.66$ \\
-        $\eta_c\to p\bar{p}$ & $0.104\pm 0.022$  & $0.15\pm0.04\pm0.02\pm0.01$ \\
+        $\eta_c\to K_S^0K^{\pm}\pi^{\mp}$ & $2.62\pm0.21$ & $2.60\pm0.29\pm0.34\pm0.25$ \\
+        $\eta_c\to K^+ K^- \pi^0$ & $1.20\pm0.13$ & $ 1.04\pm0.17\pm0.11\pm0.10$ \\
+        $\eta_c\to2(\pi^+\pi^-\pi^0)$ & $15.72\pm1.81$ & $17.23\pm1.70\pm2.29\pm1.66$ \\
+        $\eta_c\to p\bar{p}$ & $0.120\pm 0.027$  & $0.15\pm0.04\pm0.02\pm0.01$ \\
         \hline
         \hline
       \end{tabular}
