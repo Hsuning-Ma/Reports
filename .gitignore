@@ -6,6 +6,8 @@
 *.fls
 *.out
 *.toc
+*/**/figures/
+*/**/figure/
 
 ## Intermediate documents:
 *.dvi
